@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TYPOGRAPHY STYLE-->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Work+Sans:wght@200;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--ADD BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Corporación cctet</title>
+    
+</head>
+
+<body>  
+  <!--DROPDOWN MENU-->  
+  <div class="topnav padding" id="myTopnav">
+    <div id="logo-style" class="dropdown">
+    <a href="contactenos.html" class="active dropbtn">Contátecnos</a>
+    </div>
+
+    <div id="logo-style"  class="dropdown">
+    <a href="#donar" class="dropbtn">Donar</a>
+    </div>
+        
+    <div id="logo-style" class="dropdown">
+      <button class="dropbtn">Territorio y Desarrollo
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#educacion-ambiental">Educación ambiental</a>
+        <a href="#desarrollo-socio-economico">Desarrollo socio económico</a>
+        <a href="#planificacion-territorial">Planificación territorial</a>
+      </div>
+    </div> 
+
+
+    <div id="logo-style" class="dropdown">
+      <button onclick="location.href = 'educacion-tecnologia.html'" class="dropbtn">Educación y Tecnología
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#educacion-ciencia-tecnologia">Educación en ciencias y tecnologías</a>
+        <a href="#robotica-educativa">Robótica educativa</a>
+        <a href="#fortalecimiento-icfes">Fortalecimiento icfes</a>
+      </div>
+    </div> 
+
+    <div id="logo-style" class="dropdown">
+      
+      <button class="dropbtn" id="#la-corporacion">La Corporación 
+        <i class="fa fa-caret-down"></i><a href="#la-corporacion"></a>
+      </button>
+      <div class="dropdown-content"> 
+        <a href="que_hacemos.html">Historia</a>
+        <a href="que_hacemos.html">¿Que hacemos?</a>
+        <a href="#nuestro-proposito"id ="nuestro-proposito">Nuestro propósito</a>
+        <a href="#equipo-cctet">Equipo CCTET</a>
+        <a href="regimen-tributario-especial.html">Régimen  tributario especial</a>
+      </div>
+    </div> 
+    
+    <a href="javascript:void(0);" style="font-size:50px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+    <div class="div-logo-cctet">
+      <img class="style-logo-cctet" src="./images/logo_cctet.png">
+    </div>
+  </div>
+  
+    <!--CARROUSEL CON BOOSTRATP-->
+
+    <div class="bd-example" id="delette-space-navb-carrousel img-carrouselimage">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/img3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/img2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/img1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Antrás</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Adelante</span>
+      </a>
+      </div>
+    </div>
+
+    <!--NUESTRA APUESTA DE TRABAJO-->
+  <div class="nuestra-apuesta">
+        <h1 style="color: #017888;">NUESTRAS APUESTAS DE TRABAJO</h1>
+
+        <p>Como laboratorio social identificamos y afrontamos retos complejos del desarrollo rural en Colombia con la participación activa de diferentes actores.                   Los retos identificados los concentramos en tres grandes apuestas de trabajo:</p>
+    
+  </div>
+
+   <!--NUESTRAS APUESTAS DE TRABAJO GRID DESIGN-->
+
+<div class="card-group" id="separate-space-betwen-card">
+  <div class="card">
+    <img src="images/apuesta1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">APUESTA EN EDUCACIÓN Y TECNOLOGÍA</h5>
+      <p class="card-text">Fortalecemos los procesos de aprendizaje educativo en las zonas marginales y de difícil acceso del país usando metodologías STEM..</p>
+      <p class="card-text"><small class="text-muted">LEER MÁS...</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/apuesta 2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">APUESTA AMBIENTAL Y TERRITORIAL</h5>
+      <p class="card-text">Buscamos reforzar las temáticas educativas relacionadas el territorio y buen uso de los medios con el fin de fortalecer el cuidado ambiental y conservación de los recursos naturales</p>
+      <p class="card-text"><small class="text-muted">LEER MÁS...</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/apuesta3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">APUESTA MEJORAMIENTO ICFES</h5>
+      <p class="card-text">Buscamos garantizar la educación superior de los jóvenes de los municipios de difícil acceso por medio de la realización de preicfes gratuitos con el fin de beneficiar a mas de 500 jóvenes de los Municipios de Timbiquí y Guapi Cauca.</p>
+      <p class="card-text"><small class="text-muted">LEER MÁS...</small></p>
+    </div>
+  </div>
+</div>
+  <!--PROYECTOS EN CURSO-->
+  <div class="proyectos-en-curso" id="en-curso">
+    <h1 style="color: #017888;">PROYECTOS EN CURSO</h1>
+    <p> <b>Como corporación de Ciencias, Tecnología y estudios Territoriales (CCTET) fortalecemos capacidades cognitivas y buscamos por medio de la tecnología dar soluciones a las problemáticas sociales en los territorios vulnerables en las periferias del país. </b></p>
+    
+    <!--CARROUSEL PROYECTOS EN CURSO-->
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img-front-end/WhatsApp Image 2022-08-19 at 6.40.28 PM.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img-front-end/WhatsApp Image 2022-08-18 at 7.18.12 PM (2).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img-front-end/WhatsApp Image 2022-08-19 at 6.39.09 PM (1).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+  <!--ALGUNAS CIFRAS DE LA CORPORACIÓN-->
+   
+<div class="padre-la-corporación-en-cifras" id="cifras" >
+      <h2>LA CORPORACIÓN EN CIFRAS</h2>
+      <div class="panel-izquierdo-cifras">
+          <div class="proyectos">
+              <h2>2022</h2>
+          </div>
+      <div class="img-proyectos">
+            <img src="/incons/proyecto.png" alt="" class="icon-proyectos">
+            <h3 style ="color: white;"class="activarContador_proyectos">0</h3> 
+            <h4 style="color: white;">Proyectos</h4>
+      </div>
+      <div class="departamentos">            
+              <img src="/incons/Departramentos.png" alt=""class="icon-departamentos">      
+              <h3 class="activarContador_proyectos">0</h3>               
+            <h4>Departamentos</h4>
+      </div>
+      <div class="municipios">
+            <img src="/incons/location.png" alt=""class="icon-municipios">
+            <h3 class="activarContador_proyectos">0</h3>   
+            <h4>Municipios</h4>
+      </div>
+      <div class="participante">
+            <img src="/incons/participantes.png" alt=""class="icon-participantes">
+            <h3 class="activarContador_proyectos">0</h3>   
+            <h4>Participantes</h4>
+      </div>
+      <div class="inversiones">
+            <img src="/incons/Inversiones.png" alt=""class="icon-inversion">
+            <h3 class="activarContador_proyectos">0</h3>   
+            <h4>Inversión +</h4>
+      </div>
+      </div>
+      <div class="panel-derecho-cifras">
+        <iframe width="670" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-77.89579153060915%2C2.569274097551286%2C-77.87939786911012%2C2.5808066681906454&amp;layer=mapnik&amp;marker=2.5750403959204573%2C-77.88759469985962" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=2.5750&amp;mlon=-77.8876#map=16/2.5750/-77.8876">Ver mapa más grande</a></small>
+      </div>  
+</div>
+
+<!--MOSAICO DE IMÁGENES Y FOTOS LO MÁS REPRESENTATIVO-->
+
+<div style="margin-left: 30px; margin-top: 100px;">
+  <img src="./incons/instagram.png" class="icono-instagran"> <a href="https://www.instagram.com/corporacioncctet1/" target="_blank">corporacioncctet</a>
+</div>
+<div class="mas-representativo">
+        <div class="card-group" id="separate-space-betwen-card-mas-representativo">
+              <div class="card">
+                  <img src="images/apuesta1.jpg">
+              </div>
+              <div class="card">
+                    <img src="images/apuesta 2.jpg">
+              </div>
+              <div class="card">
+                    <img src="images/apuesta3.jpg">
+              </div>
+              <div class="card">
+                <img src="images/apuesta3.jpg">
+          </div>
+        </div>
+
+        <div style="margin-top: 10px;">
+          <div class="card-group" id="separate-space-betwen-card-mas-representativo">
+                <div class="card">
+                    <img src="images/Apuesta 6.jpeg">
+                </div>
+                <div class="card">
+                      <img src="images/Apuesta 5.jpeg">
+                </div>
+                <div class="card">
+                      <img src="images/Apuesta 7.jpeg">
+                </div>
+                <div class="card">
+                  <img src="images/Apuesta 5.jpeg">
+            </div>
+          </div>
+    </div>
+    
+    <div style="margin-top: 10px;">
+      <div class="card-group" id="separate-space-betwen-card-mas-representativo">
+            <div class="card">
+                <img src="images/apuesta1.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta 2.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta3.jpg">
+            </div>
+            <div class="card">
+              <img src="images/apuesta3.jpg">
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 10px;">
+      <div class="card-group" id="separate-space-betwen-card-mas-representativo">
+            <div class="card">
+                <img src="images/apuesta1.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta 2.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta3.jpg">
+            </div>
+            <div class="card">
+              <img src="images/apuesta3.jpg">
+        </div>
+      </div>
+    </div>
+    
+    <div style="margin-top: 10px;">
+      <div class="card-group" id="separate-space-betwen-card-mas-representativo">
+            <div class="card">
+                <img src="images/apuesta1.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta 2.jpg">
+            </div>
+            <div class="card">
+                  <img src="images/apuesta3.jpg">
+            </div>
+            <div class="card">
+              <img src="images/apuesta3.jpg">
+        </div>
+      </div>
+    </div>
+    
+</div>
+
+<!--ALGUNOS ALIADOS-->
+<div class="aliados">
+  <h1>ALGUNOS DE NUESTROS ALIADOS</h1>
+      <div>
+            <img src="./images/aliado-cctet.png" class="logos-aliados">
+      </div>
+
+      
+</div>
+
+
+
+  <script src="scripts/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script> <!--Add GSAP ANimations-->
+</body>
+
+<footer>
+  <div  style="text-align: center; "  class="footer-style-before-copirig">
+        
+        <div class="content-footer-style-div-lef">
+            <div class="footer-style-div-lef">
+                <h2>Redes sociales</h2>
+                    <diV class="div-redes-sociales">
+                        <p style="text-align: center;"><a style="color: white;"href="https://www.instagram.com/corporacioncctet1/" target="_blank">instagram</a></p>
+                    </diV> 
+                    <diV class="div-redes-sociales">
+                      <p style="text-align: center;"><a style="color: white;"href="https://web.facebook.com/Corporaci%C3%B3n-CCTET-102053639212090/?ref=pages_you_manage" target="_blank">Facebook</a></p>
+                    </diV> 
+                    <diV class="div-redes-sociales">
+                        <p style="text-align: center;">Twitter</p>
+                    </diV> 
+                 
+            </div>
+
+            <div class="footer-style-div-center">
+                <h2>Menú principal</h2>
+                
+                <h5 style="padding-top: 1.5em;"> <a href="" style="color: white;">La Corporación</a></h5>
+                <h5 style="padding-top: 0.5em;">   <a href=""  style="color: white;">Educación y Tecnología </a></h5>
+                <h5 style="padding-top: 0.5em;">   <a href=""  style="color: white;">Territorio y Desarrollo </a></h5>
+                <h5 style="padding-top: 0.5em;">   <a href=""  style="color: white;">Donar</a></h5>
+                <h5 style="padding-top: 0.5em;">   <a href="contactenos.html"  style="color: white;">Contáctenos</a></h5>
+            </div>
+
+            <div class="footer-style-div-right">
+                <h2 style="margin-bottom: 40px;">Información de contacto</h2>
+                  
+                <div>
+                  <p>Calle 73N 34-95, Popayán Cauca </p>
+                  <p>Barrio San José alto Timbiquí Cauca </p>
+                </div>      
+                <diV class="div-contactos" style="margin-top: 20px;">
+                        <p>(+57) 3116072750 - 3137179617</p>
+                    </diV>                
+                    <diV class="div-contactos" style="margin-top: 20px;">
+                        <p>E-mail: corporacioncctet@gmail.com</p>
+                    </diV>
+            </div>
+          </div>
+  </div>
+  <div style="text-align: center;height: 40px;  margin-top: 15px;">
+    <span>Copyright 2022, Corporación CCTET</span>
+  </div>
+</footer>
+</html>
+
+
