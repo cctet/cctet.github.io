@@ -6,7 +6,6 @@
 
 @media screen and (max-width:800px){
   .style-img-proyectos-en-curso{
-    
     width: 100%;
   }
   
@@ -287,7 +286,7 @@ body{
 /*STILOS DE IMAGENES Y TEXTO DE HISTORIAS*/
 .style-div-historia{
   width: 100%; 
-  height: 38em;
+  height: 45em;
   background-color: rgb(26,187,233);
 }
 @media screen and (max-width: 800px){
@@ -320,6 +319,7 @@ body{
   .historia-style-div-lef{
     width: 100%;     
   }
+
   h2{
     text-align: center;
     
@@ -332,12 +332,22 @@ body{
 
 }
 
+@media screen and (min-width:1800px) {
+  h2{
+    text-align: center;
+    
+  }
+  .historia-style-div-lef-text-p{
+    color: black;
+    padding-right: 1em;
+    font-size: x-large;
+  }  
+}
+
 .historia-style-div-right{
   float: right;
   width: 50%;
   height: 100%;
-  margin-top: 3em;
-  
 }
 @media screen and (max-width:800px){
   .historia-style-div-right{
@@ -348,17 +358,33 @@ body{
     padding-bottom: 2em;
     
   }
-  
 }
 
+
+@media screen and (min-width:1800px){
+  .historia-style-div-right{
+    width: 50%;
+    margin-top: 0%;
+    padding-top: 2em;
+  }
+  .historia-style-div-lef{
+    width: 50%;
+    margin-top: 0%;
+    padding-top: 2em;
+    padding-bottom: 2em;    
+  }
+  
+}
 #img-historia{
   filter:  grayscale(100%);
   width: 95%;
-  height: auto;
+  height:100%;
+  padding-bottom: 2rem;
   border-radius: 10px;
-  margin-left: 1.5em;
+  margin-left: 1.5rem;
   
  }
+
 
  @media screen  and (max-width:637px){
   #img-historia{
@@ -369,7 +395,7 @@ body{
 
  .style-que-hacemos{
   width: 100%;
-  height: 38em;
+  height: 42em;
 }
 
 @media screen and (max-width:800px){
@@ -382,9 +408,25 @@ body{
 .que-hacemos-style-div-lef{
   float: left;
   width: 50%; 
+  
+  
 }
+
+@media screen and (min-width:1800px){
+  .style-que-hacemos{
+    padding-top: 50px;
+  }
+ .que-hacemos-style-div-lef{
+  width: 50%;
+  height: auto;
+  margin-top: 3em;
+  
+ }
+}
+
+
 .que-hacemos-titulo-h2{
-  text-align:left;
+  text-align:center;
   color: rgb(132,55,149); 
 }
 
@@ -406,7 +448,7 @@ body{
 
 .que-hacemos-style-div-right{
   width: 50%;
-  padding-right: 3em;
+  padding-right: 1em;
   display: inline-block;
 }
 
@@ -415,6 +457,18 @@ body{
     width: 100%;
     padding-top: 2em;
   }
+}
+
+@media screen and (min-width:1800px){
+  .que-hacemos-style-div-right{
+    font-size: 5rem;
+  }
+
+  .que-hacemos-style-div-lef{
+    width: 50%;
+    height: 36rem;
+    margin-top: 0%;
+   }
 }
 
  #img-que-hacemos{
@@ -434,73 +488,124 @@ body{
   }
  }
 
+ @media screen  and (min-width:1800px){
+  #img-que-hacemos{
+   height: 50%;
+   height: 100%;
+   padding-top: 0%;
+   margin-top: 0%;
+   
+  }
+ }
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 
-
-/*STILOS DIV NUESTRO PROPOSITOS*/
-.style-nuestro-proposito{
-  width: 100%;
-  height: 38em;  
-  background-color: rgb(132,55,149);
+/*NUESTRO PROPOSITO*/
+.style-div-nuestro-proposito{
+  width: 100%; 
+  height: 46rem;
+  background-color: rgb(26,187,233);
 }
-
-@media screen and (max-width:800px){
-  .style-nuestro-proposito{
+@media screen and (max-width: 800px){
+  .style-div-nuestro-proposito{
     height: auto;
+    background-color: rgb(26,187,233);
   }
 }
-
-.style-nuestro-proposito-texto-h2{
-  text-align:left; 
-  color:white;
-  padding-left: 1.5em;
-}
-@media screen and (max-width:800px){
-  .style-nuestro-proposito-texto-h2{
-    text-align: center;
-  }
-}
-
-.style-nuestro-proposito-texto-p{
-  color:  white; 
-  font-size: x-large;
-  padding-left: 1.5em;
-}
-@media screen and (max-width:800px){
-  .style-nuestro-proposito-texto-p{
-    font-size: medium;
-  }
-}
-
 .nuestro-proposito-style-div-lef{
-  display: inline-block;
+  height: auto;
   width: 50%;
-  margin-top: 3.5%;
+  float: left;
   color: white;
   text-align: left;
+  padding-left: 1em; 
 }
-@media screen and (max-width:800px){
+
+
+.nuestro-proposito-style-div-lef-text-h2{
+  padding-left: 1.5em; 
+}
+
+.nuestro-proposito-style-div-lef-text-p{
+  font-size:larger; 
+  padding-top: 5rem;
+  padding-left: 1.5em; 
+}
+
+
+@media screen and (max-width:800px) {
   .nuestro-proposito-style-div-lef{
-    width: 100%;
+    width: 100%;     
+  }
+
+  h2{
+    text-align: center;
     
   }
+  .nuestro-proposito-style-div-lef-text-p{
+    color: black;
+    padding-right: 1em;
+    font-size: medium;
+  }  
+
+}
+
+@media screen and (min-width:1800px) {
+  h2{
+    text-align: center;
+    
+  }
+  .nuestro-proposito-style-div-lef-text-p{
+    color: black;
+    padding-right: 1em;
+    font-size: x-large;
+  }  
 }
 
 .nuestro-proposito-style-div-right{
-  float: right;
+  display: inline-block;
   width: 50%;
-  margin-top: 50px;
+  height: 100%;
+  margin-top: 3em;
+  
 }
-
 @media screen and (max-width:800px){
   .nuestro-proposito-style-div-right{
     width: 100%;
     margin-top: 0%;
     background-color: rgb(26,187,233);
     padding-top: 2em;
-    padding-bottom: 2em; 
-    background-color: rgb(132,55,149);;
+    padding-bottom: 2em;
+    
   }
+}
+
+@media screen and (min-width:1800px){
+  .nuestro-proposito-style-div-right{
+   display: inline-block;
+    width: 50%;
+    margin-top: 0%;
+    padding-top: 2em;
+    padding-bottom: 2em;    
+  }
+}
+@media screen and (min-width:1800px){
+  .nuestro-proposito-style-div-lef{
+    width: 50%;
+    float: left;
+    margin-top: 0%;
+    padding-top: 2em;
+    padding-bottom: 2em;  
+  }
+  #img-nuestro-proposito{
+    filter:  grayscale(100%);
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 1.5em;
+    margin: 0%;
+    
+   }
 }
 
 #img-nuestro-proposito{
@@ -509,15 +614,15 @@ body{
   height: auto;
   border-radius: 10px;
   margin-left: 1.5em;
-}
+  
+ }
 
-@media screen  and (max-width:637px){
+ @media screen  and (max-width:637px){
   #img-nuestro-proposito{
    width: 20em;
    border-radius: 20px;
   }
  }
-
 
 /*LOGOS DE ALIADOS*/
 .logos-aliados{
@@ -750,13 +855,14 @@ p{
 
 
 /*EQUIPO CCTET*/
+
 .style-equipo-cctet{
-  height: 800px;  
-  margin-top: 40px;
+  height: 65rem;  
+  margin-top: 3rem;
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width:800px){
@@ -770,6 +876,10 @@ p{
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 10px;
+}
+
+.style-img-equipo-cctet{
+  padding-top: 2rem;
 }
 
 /*LA CORPORACIÓN EN CIFRAS*/
@@ -896,3 +1006,7 @@ p{
 
 
 
+.class-img-carrousel-fotos-timbiqui{
+  height: 50rem;
+  
+}
